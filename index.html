@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz 2</title>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+
+    <body>
+        <div id="descripcionContainer">
+            <h1>Global Solution SAS</h1>
+            <textarea id="descripcionTarea" placeholder="Descripción de la tarea"></textarea>
+            <button id="descripcionBtn">Nueva tarea</button>
+        </div>
+
+        <div id="tareasContainer">
+
+        </div>
+    </body>
+</html>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase.js"></script>
+
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyDt0YK9N9Qt1EcOoEJa3Ll3i8CfJ_udzzw",
+    authDomain: "quiz2eco-f30c1.firebaseapp.com",
+    databaseURL: "https://quiz2eco-f30c1-default-rtdb.firebaseio.com",
+    projectId: "quiz2eco-f30c1",
+    storageBucket: "quiz2eco-f30c1.appspot.com",
+    messagingSenderId: "167872417849",
+    appId: "1:167872417849:web:d6a474c9f8f0339bcd7de8",
+    measurementId: "G-BJ11HNCER0"
+  };
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<script src="js/index.js"></script>
