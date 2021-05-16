@@ -1,0 +1,162 @@
+#descripcionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#descripcionContainer h1{
+    font-family: "Poppins", sans-serif;
+}
+
+#descripcionCont2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#descripcionCont2 textarea{
+    width: 10%;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+#descripcionCont2 button{
+    width: 10%;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    background-color: cyan;
+}
+
+#tareasContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+#tareasContainer h3{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+#do{
+    margin-left: 25px;
+    margin-right: 25px; 
+}
+
+#doing{
+    margin-left: 25px;
+    margin-right: 25px; 
+}
+
+#done{
+    margin-left: 25px;
+    margin-right: 25px; 
+}
+
+#doContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+#doingContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#doneContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Tarea{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(250, 215, 215);
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.buttonDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    width: 100%;
+    padding-left: 25px;
+    padding-bottom: 15px;
+}
+
+.fechaCont{
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 10px;
+    font-family: "Poppins", sans-serif;
+    margin: 5px;
+    width: 100%;
+    font-size: 10px;
+    font-weight:normal;
+}
+
+.tareaDescripcion{
+    position: relative;
+    display: flex;
+    padding-left: 25px;
+    font-family: "Poppins", sans-serif;
+    margin: 10px;
+    width: 100%;
+}
+
+.eliminarBtn{
+  width:15px;
+  height:15px;
+  background-color:#ff0000;
+  margin: 5px;
+  padding:10px;
+  border-radius: 50px;
+}
+
+.avanceBtn{
+    width:15px;
+    height:15px;
+    background-color:#0400ff;
+    margin: 5px;
+    padding:10px;
+    border-radius: 50px;
+}
+
+.retrocesoBtn{
+    width:15px;
+    height:15px;
+    background-color:#eeff00;
+    margin: 5px;
+    padding:10px;
+    border-radius: 50px;
+}
+

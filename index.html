@@ -8,11 +8,29 @@
     <body>
         <div id="descripcionContainer">
             <h1>Global Solution SAS</h1>
-            <textarea id="descripcionTarea" placeholder="Descripción de la tarea"></textarea>
-            <button id="descripcionBtn">Nueva tarea</button>
+            <div id="descripcionCont2">
+                <textarea id="descripcionTarea" placeholder="Descripción de la tarea"></textarea>
+                <button id="descripcionBtn">Nueva tarea</button>
+            </div>
+            
         </div>
 
         <div id="tareasContainer">
+
+            <div id="do">
+                <h3 class="textos">To Do</h3>
+                <div id="doContainer"></div>
+            </div>
+        
+            <div id="doing">
+                <h3 class="textos">Doing</h3>
+                <div id="doingContainer"></div>
+            </div>
+            
+            <div id="done">
+                <h3 class="textos">Done</h3>
+                <div id="doneContainer"></div>
+            </div>
 
         </div>
     </body>
@@ -34,4 +52,5 @@
   firebase.initializeApp(firebaseConfig);
 </script>
 
+<script src="components/Tarea.js"></script>
 <script src="js/index.js"></script>
